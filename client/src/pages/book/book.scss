@@ -1,0 +1,74 @@
+.bookContainer {
+  height: 105vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -ms-overflow-style: none;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("../../image/wood.jpg");
+  background-size: cover;
+
+  .imgContainer {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 90px #313131;
+
+    .img {
+      background-color: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 1) 100%
+      );
+    }
+
+    .btnR {
+      width: 100%;
+      height: 20px;
+      backdrop-filter: blur(10px);
+      background-color: transparent;
+      font-family: yekan;
+      color: white;
+      background: rgba(49, 49, 49, 0.6);
+      border: none;
+    }
+    .maskR {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      border-radius: 10px;
+      background: linear-gradient(
+        to left,
+        rgba(0, 0, 0, 0.1) 90%,
+        rgb(46, 46, 46) 100%
+      );
+    }
+
+    .btnL {
+      width: 100%;
+      height: 20px;
+      backdrop-filter: blur(10px);
+      background-color: transparent;
+      font-family: yekan;
+      color: white;
+      background: rgba(49, 49, 49, 0.6);
+      border: none;
+    }
+    .maskL {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      border-radius: 10px;
+      background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0) 90%,
+        rgb(46, 46, 46) 100%
+      );
+    }
+  }
+}
